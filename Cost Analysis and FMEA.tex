@@ -1,0 +1,83 @@
+\chapter{Cost Analysis and FMEA} \label{Cost Analysis and FMEA}
+
+The entire cost to build this project was projected to be 15,500, but due to the unfortunate war between Ukraine and Russia, the raw material rates skyrocketed and we had to scale our budget accordingly. The total cost to build this project was 29,547 INR. The Cost Breakdown is listed below.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[!ht]
+\centering
+%\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|cc|c|}
+\hline
+\multicolumn{1}{|c|}{Sr. No.} & \multicolumn{2}{c|}{Cost}                                    & \multicolumn{1}{l|}{}      \\ \hline
+                              & \multicolumn{1}{c|}{Job/Material}                   & Amount & Details                    \\ \hline
+\multirow{}{}{1}            & \multicolumn{1}{c|}{\multirow{}{}{Transport}}     & 900    & Cross pipe installation    \\ \cline{3-4} 
+                              & \multicolumn{1}{c|}{}                               & 500    & Cydroy home                \\ \cline{3-4} 
+                              & \multicolumn{1}{c|}{}                               & 600    & Shreeji to Curti           \\ \cline{3-4} 
+                              & \multicolumn{1}{c|}{}                               & 500    & Curti to Hostel            \\ \hline
+2                             & \multicolumn{1}{c|}{SS Pipe}                        & 1236   & \multirow{}{}{For Frame} \\ \cline{1-3}
+3                             & \multicolumn{1}{c|}{SS Plate}                       & 4233   &                            \\ \hline
+4                             & \multicolumn{1}{c|}{Roller Chain 3/8}               & 2800   & Collecting mechanism       \\ \hline
+\multirow{}{}{5}            & \multicolumn{1}{c|}{\multirow{}{}{Bearing}}       & 600    & Driving shaft              \\ \cline{3-4} 
+                              & \multicolumn{1}{c|}{}                               & 360    & Collection shaft           \\ \hline
+6                             & \multicolumn{1}{c|}{Freewheel}                      & 240    & Driving mechanism          \\ \hline
+7                             & \multicolumn{1}{c|}{Red Wheel (Rubber)}             & 1300   & Front wheels               \\ \hline
+8                             & \multicolumn{1}{c|}{MS Sprocket}                    & 1120   & Collecting mechanism       \\ \hline
+9                             & \multicolumn{1}{c|}{Full lock}                      & 90     & For locking chains         \\ \hline
+10                            & \multicolumn{1}{c|}{CRCA Sheet}                     & 2128   & Blades and side panels     \\ \hline
+11                            & \multicolumn{1}{c|}{Nut and bolts}                  & 30     & For locking chains         \\ \hline
+\multirow{}{}{12}           & \multicolumn{1}{c|}{\multirow{}{}{Workshop Rent}} & 3000   & Shreeji                    \\ \cline{3-4} 
+                              & \multicolumn{1}{c|}{}                               & 380    & Irfan workshop             \\ \cline{3-4} 
+                              & \multicolumn{1}{c|}{}                               & 5700   & Hanuman Motor Works        \\ \hline
+\multirow{}{}{13}           & \multicolumn{1}{c|}{SS Pipe}                        & 1400   & Bottom Frame               \\ \cline{2-4} 
+                              & \multicolumn{1}{c|}{SS Sheet}                       & 1540   & Base for Bottom Frame      \\ \cline{2-4} 
+                              & \multicolumn{1}{c|}{MS right angle rods}            & 240    & For Structural Rigidity    \\ \hline
+14                            & \multicolumn{1}{c|}{Sprocket Boring}                & 150    & To fit on auxiliary shaft  \\ \hline
+15                            & \multicolumn{1}{c|}{Freewheel mounts}               & 500    & To fit on main shaft       \\ \hline
+16                            & \multicolumn{1}{c|}{Total Cost}                     & 29547  & \multicolumn{1}{l|}{}      \\ \hline
+\end{tabular}%
+%}
+\caption{Cost breakdown}
+\label{tab:Cost breakdown}
+\end{table}
+
+
+
+
+% \usepackage{graphicx}
+% \usepackage{multirow}
+% \usepackage{rotating}
+
+
+\begin{sidewaystable}
+\centering
+\caption{FMEA Table}
+\label{tab:FMEA Table}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} 
+\hline
+Sr. No.            & PART                            & FUNCTION                                                                                                                                                   & FAILURE MODE                                                                                      & FAILURE CAUSE                                                                                                              & FAILURE EFFECT                                                                                                        & Severity           & Occurence          & Detection          & RPN                  & Actions Taken                                                                                                                   & \begin{tabular}[c]{@{}c@{}}New\\ Severity\end{tabular} & \begin{tabular}[c]{@{}c@{}}New\\ Occurance\end{tabular} & \begin{tabular}[c]{@{}c@{}}New \\ Detection\end{tabular} & \begin{tabular}[c]{@{}c@{}}New \\ RPN\end{tabular}  \\ 
+\hline
+\multirow{}{}{1} & \multirow{}{}{MAIN FRAME}     & \multirow{}{}{\begin{tabular}[c]{@{}c@{}}To withstand the \\ dead weight of the project \\ and the forces transmitted \\ during operation.\end{tabular}} & \begin{tabular}[c]{@{}c@{}}Welded joints could break \\ while being operated.\end{tabular}        & \begin{tabular}[c]{@{}c@{}}Improper or Unfinished \\ welding of the joints.\\ Poor quality electrodes chosen.\end{tabular} & Entire mechanism collapses.                                                                                           & 10                 & 7                  & 4                  & 280                  & \begin{tabular}[c]{@{}c@{}}Ensured proper \\ welding procedure\end{tabular}                                                     & 4                                                      & 2                                                       & 4                                                        & 32                                                  \\ 
+\cline{4-15}
+                   &                                 &                                                                                                                                                            & Bending of frame elements.                                                                        & \begin{tabular}[c]{@{}c@{}}Load applied exceeds \\ ultimate tensile strength.\end{tabular}                                 & \begin{tabular}[c]{@{}c@{}}Frame bends and \\ movement is compromised.\end{tabular}                                   & 10                 & 5                  & 7                  & 350                  & \begin{tabular}[c]{@{}c@{}}Ensured material \\ selected for frame could \\ sustain the operational loads\end{tabular}           & 5                                                      & 2                                                       & 4                                                        & 40                                                  \\ 
+\hline
+2                  & BOTTOM PLATE                    & \begin{tabular}[c]{@{}c@{}}Acts as the path \\ for the cow dung driven \\ by the blades till the dropping hole.\end{tabular}                               & Plate bends and caves in.                                                                         & \begin{tabular}[c]{@{}c@{}}Persistent and continuous stresses\\ and loads on the plate.\end{tabular}                       & \begin{tabular}[c]{@{}c@{}}Contact between the \\ cow dung and the blades \\ is compromised.\end{tabular}             & 7                  & 6                  & 5                  & 210                  & Fail-safe welds                                                                                                                 & 4                                                      & 1                                                       & 5                                                        & 20                                                  \\ 
+\hline
+\multirow{}{}{3} & \multirow{}{}{FRONT SCRAPER}  & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Initial lifting of the \\ cow dung from the ground.\end{tabular}}                                               & \multirow{}{}{Breaks while being driven.}                                                       & \begin{tabular}[c]{@{}c@{}}Load applied exceeds\\ ultimate tensile strength.\end{tabular}                                  & \multirow{}{}{\begin{tabular}[c]{@{}c@{}}Cow dung collecting \\ mechanism is impaired.\end{tabular}}                & \multirow{}{}{8} & \multirow{}{}{6} & \multirow{}{}{4} & \multirow{}{}{192} & \multirow{}{}{\begin{tabular}[c]{@{}c@{}}Ensured proper \\ angle of operation\end{tabular}}                                   & \multirow{}{}{4}                                     & \multirow{}{}{2}                                      & \multirow{}{}{5}                                       & \multirow{}{}{40}                                 \\ 
+\cline{5-5}
+                   &                                 &                                                                                                                                                            &                                                                                                   & \begin{tabular}[c]{@{}c@{}}Cracks in the part due\\ to sudden impacts.\end{tabular}                                        &                                                                                                                       &                    &                    &                    &                      &                                                                                                                                 &                                                        &                                                         &                                                          &                                                     \\ 
+\hline
+\multirow{}{}{4} & \multirow{}{}{BLADE ASSEMBLY} & \multirow{}{}{\begin{tabular}[c]{@{}c@{}}To drive the cow dung \\ on the bottom plate.\end{tabular}}                                                     & \begin{tabular}[c]{@{}c@{}}Breakage in the link between \\ the chain and the blades.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Improper or Unfinished \\ welding of the joints.\end{tabular}                                   & Collecting mechanism fails.                                                                                           & 10                 & 8                  & 4                  & 320                  & \begin{tabular}[c]{@{}c@{}}Bridging was \\ done on the chain \\ and blades linkage\end{tabular}                                 & 3                                                      & 3                                                       & 3                                                        & 27                                                  \\ 
+\cline{4-15}
+                   &                                 &                                                                                                                                                            & Breakage or bending of the blade.                                                                 & \begin{tabular}[c]{@{}c@{}}Normal stresses induced \\ exceed ultimate tensile stress.\end{tabular}                         & \begin{tabular}[c]{@{}c@{}}Inefficient collection \\ due to poor contact between \\ blades and cow dung.\end{tabular} & 5                  & 6                  & 4                  & 120                  & \begin{tabular}[c]{@{}c@{}}Ensured material selected \\ for the blades could \\ sustain operational loads\end{tabular}          & 2                                                      & 3                                                       & 3                                                        & 18                                                  \\ 
+\hline
+5                  & SHAFT                           & \begin{tabular}[c]{@{}c@{}}Primary driving mechanism, \\ provide torque for \\ the collecting mechanism\end{tabular}                                       & Breakage                                                                                          & Excessive loading or excessive vibration                                                                                   & \begin{tabular}[c]{@{}c@{}}Decreased power\\ output to the \\ collecting mechanism.\end{tabular}                      & 7                  & 6                  & 3                  & 126                  & \begin{tabular}[c]{@{}c@{}}Ensured material \\ selected for the shafts could \\ sustain operational loads\end{tabular}          & 3                                                      & 2                                                       & 4                                                        & 24                                                  \\ 
+\hline
+6                  & CHAINS                          & \begin{tabular}[c]{@{}c@{}}Transmit torque from the\\ wheels to the collecting mechanism.\end{tabular}                                                     & Breakage                                                                                          & Poor quality chain. Weak chain links.                                                                                      & Torque transmission impaired.                                                                                         & 7                  & 6                  & 3                  & 126                  & \begin{tabular}[c]{@{}c@{}}High quality chain material \\ used and bridging done \\ on the chain and blade linkage\end{tabular} & 3                                                      & 2                                                       & 5                                                        & 30                                                  \\ 
+\hline
+7                  & SPROCKET                        & Link between shaft and chain                                                                                                                               & Breakage                                                                                          & Load surpasses maximum capacity.                                                                                           & Torque transmission impaired                                                                                          & 8                  & 5                  & 3                  & 120                  & \begin{tabular}[c]{@{}c@{}}Stress analysis performed \\ to ensure operational \\ loads are within the limit\end{tabular}        & 3                                                      & 3                                                       & 5                                                        & 45                                                  \\
+\hline
+\end{tabular}
+}
+\end{sidewaystable}

@@ -1,0 +1,93 @@
+\documentclass[12pt]{report}
+\setlength{\parskip}{5 mm}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=1.25in,bmargin=1.25in,lmargin=1.25in,rmargin=1.25in}
+\usepackage{setspace}
+\usepackage{graphics}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{lipsum}
+\usepackage{amsmath}
+
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{graphicx}
+
+\usepackage{indentfirst}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage[justification=centering]{caption}
+\usepackage{subfigure}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\onehalfspacing
+\makeatletter
+
+\begin{document}
+%-----------------------------------------------
+%-----------------------------------------------
+\bibliographystyle{unsrt}
+\pagenumbering{gobble}
+\input{title_update}
+\pagebreak
+%---------------------------------------------------------------------------------
+\pagenumbering{gobble}
+\input{certificate}
+\pagebreak
+%---------------------------------------------------------------------------------------------------
+\input{approvalforBE}
+\newpage
+%---------------------------------------------------------------------------------------------------
+%\input{approvalforME}
+%\newpage
+%------------------------------------------------------------------------------------
+\pagenumbering{roman}
+\input{declaration}
+\newpage
+\input{acknowledgement}
+%--------------------------------------------------------------------------------------
+\renewcommand{\baselinestretch}{0.5}\normalsize
+\tableofcontents
+\renewcommand{\baselinestretch}{2}\normalsize
+
+\renewcommand{\baselinestretch}{0.5}\normalsize
+\listoffigures
+\renewcommand{\baselinestretch}{2}\normalsize
+
+\renewcommand{\baselinestretch}{0.5}\normalsize
+\listoftables
+\renewcommand{\baselinestretch}{2}\normalsize
+%-----------------------------------------------------------------------------------------------
+%\include{Abstract}
+%---------------------------------------------------------------------------------------------
+\pagenumbering{arabic}
+
+%\pagestyle{fancy}%hdr and ftr do not appear on chapter and title page
+\pagestyle{fancyplain}%hdr and ftr appear on chapter and title page
+\lhead{}
+\chead{\small Design and Fabrication of Mechanically Driven Efficient Cow Dung Collecting System}
+\rhead{}
+\fancyfoot[CO,CE]{\small {Mechanical Engineering Department, Goa College of Engineering, Farmagudi.}}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot[RO, RE] {\thepage}
+%\cfoot{}
+%\rfoot{\emph{Page \thepage}}
+\include{chapter1}
+\include{chapter2}
+\include{Research and Planning}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+\include{Fabrication}
+\include{Testing and Improvements}
+\include{Cost Analysis and FMEA} 
+\include{chapter6}
+\include{chapter7}
+\pagenumbering{roman}
+\include{listofpublication}
+\include{bibliography}
+
+\end{document}
+

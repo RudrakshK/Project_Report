@@ -1,0 +1,106 @@
+\documentclass[10pt, a4paper, oneside]{Thesis} % default font size, size of paper, only one side to be printed.
+\usepackage{wrapfig}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{amsmath}
+\graphicspath{{Pictures/}}
+\usepackage[square, numbers]{natbib} 
+\hypersetup{urlcolor=black, colorlinks=true}
+\title{\ttitle} 
+\usepackage{fancybox}
+
+\usepackage[a4paper,bindingoffset=0.2in,          left=2in,right=0in,top=4.0cm,bottom=0cm, footskip=0cm]{geometry}
+
+
+\begin{document}
+\makeatletter
+\renewcommand*{\NAT@nmfmt}[1]{\textsc{#1}}
+\makeatother
+\setstretch{1.5}
+\fancyhead{}
+\rhead{\thepage}
+\lhead{}
+\pagestyle{fancy}
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+\begin{titlepage}
+\begin{center}
+
+\huge \textbf{GOA UNIVERSITY}\\[.4cm]
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[scale=0.21]{Pictures/gu}
+\end{figure}
+\setstretch{1}
+%
+%
+%
+%INSERT THE TITLE OF THE PROJECT BELOW
+%
+%
+%
+{\huge \bfseries Implementation of Six Sigma in Improving Material Flow in the Assembly of \\ Ceiling Fan}\\[0.5cm] 
+\setstretch{0.4}
+ \large \textit{A project report submitted in partial fulfillment of the requirements \\for the award of the degree of}
+ \setstretch{1}
+ 
+\Large Bachelor of Engineering in Mechanical Engineering\\[.25cm]
+
+\large \textit{by}\\[.4cm]
+
+
+\setstretch{.4}
+%
+%
+%
+%INSERT THE NAMES OF THE STUDENTS BELOW
+%
+%
+%
+\textbf{SANKET KORGAONKAR}
+
+\textbf{PRATIK SAMANT}
+
+\textbf{AMEY VERDEKAR}
+
+\textbf{AKSHAY WALVEKAR}\\[.55cm]
+\setstretch{1}
+
+\large \textit{under the guidance of}\\[0.05cm]
+
+%
+%
+%
+%INSERT THE NAME OF THE GUIDE BELOW
+%
+%
+%
+ \Large \textbf{Dr. SURAJ RANE}\\[0.01cm]
+
+%
+%
+%
+%INSERT THE DESIGNATION OF THE GUIDE BELOW (Professor, Associate Professor, Assistant Professor)
+Professor in Mechanical Engineering\\[0.5cm]
+
+\graphicspath{ {./Figures/} }
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[scale=0.145]{Pictures/gec}
+\end{figure}
+
+Mechanical Engineering Department\\[0.01cm]
+Goa College of Engineering, \\[0.01cm]
+Farmagudi, Ponda -Goa 403401\\[0.55cm]
+
+2017-18
+
+\end{center}
+\end{titlepage}
+\end{document}
